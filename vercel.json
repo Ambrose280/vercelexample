@@ -3,7 +3,6 @@
       {
         "src": "vercelexample/wsgi.py",
         "use": "@vercel/python",
-        "config": { "pythonVersion": "3.9" }
       }
     ],
     "routes": [
