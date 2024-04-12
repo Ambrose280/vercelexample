@@ -3,7 +3,8 @@
       {
         "src": "vercelexample/wsgi.py",
         "use": "@vercel/python",
-        "config": { "pythonVersion": "3.9" }
+        "config": { "pythonVersion": "3.9", "maxLambdaSize": "15mb" }
+        
       }
     ],
     "routes": [
